@@ -14,6 +14,11 @@ ssh root@192.168.8.1
 cd /www && TARGET_FILE="gl_home.html" && cp $TARGET_FILE "${TARGET_FILE}.back" && sed -i '/\<\/html\>/d' $TARGET_FILE && SCRIPT_URL="https://raw.githubusercontent.com/LynanBreeze/MT3000_unlock/main/script.txt" && curl -s "$SCRIPT_URL" >> "$TARGET_FILE" && echo "</html>" >> "$TARGET_FILE"
 ```
 
+## All set! Refresh your router admin page in your browser, you should see the changes has been made.
+
+------------
+------------
+
 ## If you have network problem with `raw.githubusercontent.com`, try this instead:
 
 ```
@@ -25,4 +30,3 @@ cd ~ && cd /www && TARGET_FILE="gl_home.html" && cp $TARGET_FILE "${TARGET_FILE}
 cd ~ && cd /www && TARGET_FILE="gl_home.html" && rm -rf $TARGET_FILE && mv "${TARGET_FILE}.back" $TARGET_FILE
 ```
 
-## All set! Refresh your router admin page in your browser, you should see the changes has been made.
