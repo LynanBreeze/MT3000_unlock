@@ -1,3 +1,5 @@
+Archieved, see [【2024.12.15】官方UI辅助插件: 美化/快速登录/快捷按钮/风扇...](https://forum.gl-inet.cn/forum.php?mod=viewthread&tid=3129)
+
 # MT3000_unlock
 
 Thanks to **iBelieve**'s script, this is a shortcut for applying his script to unlock MT3000's hidden features.
